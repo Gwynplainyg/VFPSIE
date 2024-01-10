@@ -1,0 +1,12 @@
+lpips
+matplotlib
+numpy
+opencv-python
+h5py
+pandas
+tensorboard
+einops
+timm
+cupy-cuda11x
+imgaug
+
