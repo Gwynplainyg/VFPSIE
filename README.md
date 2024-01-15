@@ -35,6 +35,12 @@ pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --e
 pip install -r requirements.txt
 ```
 
+## Quick Usage
+Generate a target frame using our model:
+```
+python run_sample.py  --sample_folder_path  ./sample_data --ckpt_path pretrained_model/VFPSIE.pth --save_output_dir ./output 
+```
+
 ### Citation
 ```bibtex
 @inproceedings{Zhu_VFPSIE_AAAI_2024,
