@@ -1,18 +1,16 @@
 import torch
 import os
-
 os.environ["CUDA_VISIBLE_DEVICES"] = '7'
 os.environ["OMP_NUM_THREADS"] = "1"
 os.environ["MKL_NUM_THREADS"] = "1"
-import cv2
 
+import cv2
 cv2.setNumThreads(0)
 cv2.ocl.setUseOpenCL(False)
 from glob import glob
 import numpy as np
 from torch.utils.data import DataLoader
 from core.models.VFPSIE import Model
-from utils.event_uitls import *
 import time
 import argparse
 
